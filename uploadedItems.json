@@ -1,0 +1,18 @@
+﻿[
+ {
+    "Type": "Plugin",
+    "SupportedVersion": "4.50",
+    "DirectoryPath": "4.50/Misc.NopHunter.LiveChat/",
+    "SystemName": "Misc.NopHunter.LiveChat"
+  }, {
+    "Type": "Plugin",
+    "SupportedVersion": "4.60",
+    "DirectoryPath": "4.60/Misc.NopHunter.LiveChat/",
+    "SystemName": "Misc.NopHunter.LiveChat"
+  }, {
+    "Type": "Plugin",
+    "SupportedVersion": "4.70",
+    "DirectoryPath": "4.70/Misc.NopHunter.LiveChat/",
+    "SystemName": "Misc.NopHunter.LiveChat"
+  }
+]
