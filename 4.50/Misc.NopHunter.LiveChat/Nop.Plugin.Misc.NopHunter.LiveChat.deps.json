@@ -26,18 +26,15 @@
     "warningsAsErrors": false,
     "optimize": false,
     "keyFile": "",
-    "emitEntryPoint": true,
+    "emitEntryPoint": false,
     "xmlDoc": false,
     "debugType": "portable"
   },
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Nop.Web/4.5.0.0": {
+      "Nop.Plugin.Misc.NopHunter.LiveChat/1.0.0": {
         "dependencies": {
-          "Nop.Core": "4.5.0",
-          "Nop.Data": "4.5.0",
-          "Nop.Services": "4.5.0",
-          "Nop.Web.Framework": "4.5.0",
+          "Nop.Web": "4.5.0",
           "Microsoft.AspNetCore.Antiforgery": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "6.0.0.0",
@@ -328,10 +325,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Nop.Web.dll": {}
+          "Nop.Plugin.Misc.NopHunter.LiveChat.dll": {}
         },
         "compile": {
-          "Nop.Web.dll": {}
+          "Nop.Plugin.Misc.NopHunter.LiveChat.dll": {}
         }
       },
       "AdvancedStringBuilder/0.1.0": {
@@ -3902,6 +3899,20 @@
           "Nop.Services.dll": {}
         }
       },
+      "Nop.Web/4.5.0": {
+        "dependencies": {
+          "Nop.Core": "4.5.0",
+          "Nop.Data": "4.5.0",
+          "Nop.Services": "4.5.0",
+          "Nop.Web.Framework": "4.5.0"
+        },
+        "runtime": {
+          "Nop.Web.dll": {}
+        },
+        "compile": {
+          "Nop.Web.dll": {}
+        }
+      },
       "Nop.Web.Framework/4.5.0": {
         "dependencies": {
           "FluentValidation.AspNetCore": "10.3.6",
@@ -5650,7 +5661,7 @@
     }
   },
   "libraries": {
-    "Nop.Web/4.5.0.0": {
+    "Nop.Plugin.Misc.NopHunter.LiveChat/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -7731,6 +7742,11 @@
       "sha512": ""
     },
     "Nop.Services/4.5.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nop.Web/4.5.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
